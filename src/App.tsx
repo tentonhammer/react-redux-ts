@@ -1,10 +1,15 @@
 import React from 'react';
-import UserList from "./components/UserList";
+import {UserList} from "./components/UserList";
+import {TodoList} from "./components/TodoList";
 
 function App() {
-  return (
-      <UserList />
-  );
+    return (
+        <>
+            <UserList/>
+            <hr/>
+            <TodoList/>
+        </>
+    );
 }
 
 export default App;
