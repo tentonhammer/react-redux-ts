@@ -31,7 +31,8 @@ export const TodoList: React.FC = () => {
         <div style={{display: "flex"}}>
             {
                 pages.map(p =>
-                    <div style={{border: p === page ? '2px solid green' : '1px solid gray', padding: 10}} onClick={() => onPageChange(p)}>
+                    <div style={{border: p === page ? '2px solid green' : '1px solid gray', padding: 10}}
+                         onClick={() => onPageChange(p)}>
                         {p}
                     </div>)
             }

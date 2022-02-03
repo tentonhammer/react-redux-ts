@@ -1,5 +1,3 @@
-import {UserActionTypes} from "./user";
-
 export interface TodoState {
     todos: any[];
     loading: boolean;
